@@ -11,6 +11,10 @@
 
 }
 
+body {
+    min-height: 100%;
+}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -51,21 +55,15 @@ nav {
 }
 
 main {
-    width: 120px;
     background-size: cover;
-    height: 1500vh;
+    height: 90vh;
 }
 
 
 .conteudo {
     border-top: 0.4px solid #00080f;
     margin-bottom: 48px;
-    padding: 20px;
-}
-
-.conteudo-principal {
-    display: flex;
-    align-items: center;
+    padding: px;
 }
 
 .conteudo-principal-escrito {
@@ -76,8 +74,8 @@ main {
 
 .conteudo-principal-titulo {
     padding-top: 15px;
-    padding-right: 5px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     font-family: 'Righteous', 'cursive';
