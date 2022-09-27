@@ -54,9 +54,14 @@ nav {
     display: block;
 }
 
-main {
+.main-1 {
     background-size: cover;
-    height: 90vh;
+    height: 50vh;
+    text-align: center;
+}
+
+.titulo-1 {
+    margin-bottom: 50px;
 }
 
 
