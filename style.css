@@ -13,6 +13,7 @@
 
 body {
     min-height: 100%;
+    background: #DFF6FF;
 }
 
 .cabecalho-1 {
@@ -91,9 +92,9 @@ nav {
     gap: 32px;
 }
 
-.conteudo-principal-titulo {
+.conteudo-principal-titulo{
     
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 30px 0 25px 0px;
     display: flex;
     text-align: center;
