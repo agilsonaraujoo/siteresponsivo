@@ -16,6 +16,21 @@ body {
     background: #DFF6FF;
 }
 
+.corpo-1 {
+    background-image: linear-gradient(to left,  #ffffff,#ffffff);
+    background-size: 500% 100%;
+    animation: degrade-animado 15s infinite alternate;
+}
+
+@keyframes degrade-animado {
+
+    0%{
+        background-position-x: 0%;
+    }
+    100%{background-position-x: 100%;}
+    
+}
+
 .cabecalho-1 {
 
     position: fixed;
@@ -51,10 +66,8 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    margin-left: 32px;
-    gap: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 25px;
 }
 
 .nav-list li {
@@ -63,19 +76,22 @@ nav {
 
 .main-1 {
     background-size: cover;
-    height: 150vh;
+    height: 300vh;
     text-align: center;
 }
 
 .titulo-1 {
     display: flex;
     justify-content: center;
+    margin-top: 80px;
     margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .texto-1 {
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: row;
-    padding: 0 50px 0 50px;
+    padding: 0 100px 0 100px;
     text-align: left;
 }
 
@@ -83,7 +99,10 @@ nav {
 .conteudo {
     border-top: 0.4px solid #00080f;
     margin-bottom: 48px;
-    padding: px;
+    padding: 20px 8%px;
+    width: 100%;
+    height: 100%;
+    height: 180vh;
 }
 
 .conteudo-principal-escrito {
@@ -91,6 +110,29 @@ nav {
     flex-direction: column;
     gap: 32px;
 }
+
+.video-fundo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-fundo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-fundo{
+        width: auto;
+        height: 100%;
+    }
+}
+
 
 .conteudo-principal-titulo{
     
@@ -105,6 +147,22 @@ nav {
     font-size: 48px;
     color: #002244;
 }
+
+.imgs {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.img {
+    width: 300px;
+    border-radius: 20px;
+
+}
+
 .conteudo-principal-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
