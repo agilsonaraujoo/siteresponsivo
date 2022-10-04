@@ -97,7 +97,7 @@ nav {
 
 
 .conteudo {
-    border-top: 0.4px solid #00080f;
+    height: 200vh;
     margin-bottom: 48px;
     padding: 20px 8%px;
     width: 100%;
@@ -112,10 +112,10 @@ nav {
 }
 
 .video-fundo {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
-    z-index: -1
+    z-index: -5
 
 }
 
@@ -145,7 +145,7 @@ nav {
     align-items: center;
     font-family: 'Righteous', 'cursive';
     font-size: 48px;
-    color: #002244;
+    color: #fffb84;
 }
 
 .imgs {
