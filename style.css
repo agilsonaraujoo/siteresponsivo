@@ -16,21 +16,6 @@ body {
     background: #DFF6FF;
 }
 
-.corpo-1 {
-    background-image: linear-gradient(to left,  #ffffff,#ffffff);
-    background-size: 500% 100%;
-    animation: degrade-animado 15s infinite alternate;
-}
-
-@keyframes degrade-animado {
-
-    0%{
-        background-position-x: 0%;
-    }
-    100%{background-position-x: 100%;}
-    
-}
-
 .cabecalho-1 {
 
     position: fixed;
@@ -111,27 +96,6 @@ nav {
     gap: 32px;
 }
 
-.video-fundo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -5
-
-}
-
-@media (min-aspect-ratio: 16/9) {
-    .video-fundo{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    .video-fundo{
-        width: auto;
-        height: 100%;
-    }
-}
 
 
 .conteudo-principal-titulo{
